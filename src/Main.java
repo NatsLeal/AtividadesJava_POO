@@ -9,9 +9,9 @@ public class Main {
 
         // 2 - Calculadora
         System.out.println("- Exercício 02 -");
-        Calculadora calc = new Calculadora();
-        System.out.println("Soma: " + calc.somar(5, 3));
-        System.out.println("Subtração: " + calc.subtrair(5, 3));
+        Calculadora calculadora = new Calculadora();
+        System.out.println("Soma: " + calculadora.somar(5, 3));
+        System.out.println("Subtração: " + calculadora.subtrair(5, 3));
         System.out.println();
 
         // 3 - NumeroDobro
